@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventSphere</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>EventSphere</h1>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#events-grid">Explore Events</a>
+        <a href="my-tickets.html">My Tickets</a>
+        <a href="organizer.html">Organizer Portals</a>
+    </nav>
+        <button class="btn-primary">Login</button>
+    </header>
+    <section class="organizer-section">
+        <h2>Create New Event</h2>
+        <form  id="create-event-form">
+           <div class="form-group">
+      <label for="title">Event Title</label>
+      <input type="text" name="title" id="title" required placeholder="e.g. Tech Innovation Summit">
+    </div>
+    <div class="form-group">
+    <label for="category">Category</label>
+            <select name="category" id="category">
+                <option>Category</option>
+                <option>Tech</option>
+                <option>Music</option>
+                <option>Sports Gala</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+      <label for="description">Event Description</label>
+      <textarea id="description" name="description" rows="4" required placeholder="Describe your event..."></textarea>
+    </div>
+             <div class="form-row">
+      <div class="form-group">
+        <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+            </div>
+            <div class="form-group">
+        <label for="time">Time</label>
+            <input type="time" name="time" id="time">
+            </div>
+            </div>
+
+            <div class="form-group">
+      <label for="venue">Venue / Location</label>
+      <input type="text" name="venue" id="venue" required placeholder="Enter venue">
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="price">Ticket Price (PKR)</label>
+        <input type="number" name="price" id="price" min="0" placeholder="Enter price" required>
+      </div>
+
+      <div class="form-group">
+        <label for="seats">Total Available Seats</label>
+        <input type="number" name="seats" id="seats" min="1" placeholder="Total seats" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="banner">Event Banner Image</label>
+      <input type="file" name="banner" id="banner" accept="image/*" required>
+    </div>
+
+    <button type="submit" class="btn-primary">Publish Event</button>
+  </form>
+</section>
+            
+        </form>
+
+    </section>
+
+
+    <footer>
+       <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#events-grid">Explore Events</a>
+        <a href="my-tickets.html">My Tickets</a>
+        <a href="organizer.html">Organizer Portals</a>
+    </nav>
+       
+        <p>@copyright 2026 | All Rights Reserved</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventSphere</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>EventSphere</h1>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#events-grid">Explore Events</a>
+        <a href="my-tickets.html">My Tickets</a>
+        <a href="organizer.html">Organizer Portals</a>
+    </nav>
+        <button class="btn-primary">Login</button>
+    </header>
+<main class="event-details-container">
+    <div class="event-left-content">
+   <section class="event-banner-section">
+  <!-- Banner Background Container -->
+  <div class="banner-wrapper">
+    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Event Banner" class="banner-img">
+    <div class="banner-overlay"></div>
+  </div>
+
+  <!-- Banner Content (Title, Category Badge & Quick Info) -->
+  <div class="banner-content">
+    <span class="category-badge">Tech</span>
+    <h1 class="event-title">Tech Innovation Summit 2026</h1>
+    
+    <div class="banner-meta">
+      <span><i class="fa-solid fa-calendar"></i> 30-08-2026</span>
+      <span><i class="fa-solid fa-clock"></i> 06:30 PM</span>
+      <span><i class="fa-solid fa-location-dot"></i> Kharian Expo Center</span>
+    </div>
+  </div>
+</section>
+    <!-- Detailed Description Section -->
+    <section class="event-description">
+      <h2>About This Event</h2>
+      <p>Join us for the largest tech event of the year featuring leading industry experts...</p>
+    </section>
+  </div>
+
+  <!-- Right Side Container (1 Share) -->
+  <aside class="booking-sidebar">
+    <div class="booking-card">
+      <h3>Book Your Ticket</h3>
+      <form action="" id="booking-form">
+        <div class="form-group">
+          <label for="ticket-count">Quantity:</label>
+          <input type="number" id="ticket-count" min="1" value="1">
+        </div>
+        
+        <p class="price-display">Total: PKR <span id="total-price">1500</span></p>
+        <button type="submit" class="btn-primary">Confirm & Book Ticket</button>
+      </form>
+    </div>
+  </aside>
+</main>
+    <footer>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#events-grid">Explore Events</a>
+        <a href="my-tickets.html">My Tickets</a>
+        <a href="organizer.html">Organizer Portals</a>
+    </nav>
+        <p>@copyright 2026 | All Rights Reserved</p>
+    </footer>
+    
+</body>
+</html>
